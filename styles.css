@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+:root{
+	background-color: rgb(135, 206, 235)
+}
+
+article p:first-child{
+	background : black;
+	color: white;
+}
+
+article p:nth-child(2){
+   color: inherit;
+   background-color: inherit;
+}
+article p:last-child{
+	color:red;
+}
+
+.custom-list li {
+  width: 50%;
+  padding: 10px;
+  background-color: gray;
+}
+
+.custom-list li:nth-child(odd) {
+  background-color: white;
+}
+
+.custom-list li:first-child,
+.custom-list li:last-child {
+  font-size: 22px;
+}
+
+.custom-list li:nth-last-child(3) {
+  background-color: pink;
+}
+
+
